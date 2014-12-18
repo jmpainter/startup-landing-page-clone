@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Roboto', sans-serif; 
-	letter-spacing: 0.03em;	
-	-webkit-font-smoothing: antialiased;	
 }
 ol, ul {
 	list-style: none;
@@ -50,15 +47,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Start of Custom Styles */
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/opensans-regular-webfont.woff);
+}
 body {
     background-color: LightGray;
-    font-family: sans-serif;
+    font-family: OpenSans, sans-serif;
+/*	font-family: 'Roboto', sans-serif; */
+	letter-spacing: 0.01em;	    
+	-webkit-font-smoothing: antialiased;    
 }
 div {
     border: 1px solid Chocolate;
 }
 .content {
 	padding: 0px 15px;
+    margin: 0 auto;  	
 }
 /* Navigation Section */
 .top-navigation {
@@ -67,7 +73,6 @@ div {
 .top-navigation > .content {
     width: 970px;
     height: 70px;
-    margin: 0 auto;  
 }
 .top-navigation .logo {
 	margin-top: 12px;
