@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;	
 }
 ol, ul {
 	list-style: none;
@@ -61,4 +63,20 @@ div {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+}
+.content {
+	padding: 0px 15px;
+	box-sizing: border-box;
+}
+.top-navigation img {
+	margin-top: 12px;
+}
+.links {
+	float: right;
+	font-size: 16px; 
+	color: #838994; 	
+	margin-top: 24px;
+}
+.links li {
+	display: inline-block;
 }
