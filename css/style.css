@@ -113,7 +113,18 @@ div {
 	font-size: 50px;
 	margin: 20px 0;
 }
-.intro .content h2 {
+.intro .content h3 {
 	font-size: 24px;
 	margin: 24px 0;
+}
+.big-button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.2rem;
 }
