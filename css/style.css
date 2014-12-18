@@ -48,40 +48,17 @@ table {
 }
 body {
     background-color: LightGray;
+    font-family: sans-serif;
 }
 div {
     border: 1px solid Chocolate;
 }
-.header-bar {
-  width: 60%;
-  margin: 0 auto;
-  height: 60px;
-  min-width: 480px;
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
 }
-.masthead {
-  position: fixed;
-  height: 60px;
-  background-color: blue;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-}
-nav {
-  float: right;
-  display: inline;
-  position: relative;
-  top: 18px;
-}
-.navigation {
-  display: inline;
-}
-.navigation li {
-  display: inline;
-  margin-right: 12px;
-}
-.navigation li a {
-  text-decoration: none;
-}
-.header-image {
-  margin-top: 8px;
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
