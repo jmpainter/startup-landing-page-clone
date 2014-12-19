@@ -132,3 +132,20 @@ div {
 	background-color: #D9400E;
 	cursor: pointer;
 }
+/* cases section */
+.cases .content {
+  margin: 8em 0;
+  text-align: center;
+}
+.cases .content h2 {
+	font-size: 42px;
+	color: #1d1e21;
+}
+.cases .devices {
+  display: inline-block;
+  margin: 20px 20px;
+  width: 30%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+}
