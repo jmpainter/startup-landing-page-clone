@@ -64,7 +64,6 @@ body {
 	font-size: 80%;  
 }
 .content {
-	padding: 0px 15px;
     margin: 0 auto;  	
 }
 /* Navigation Section */
@@ -76,21 +75,20 @@ body {
 	border-bottom: 1px solid #dddddd;
 }
 .top-navigation > .content {
-    width: 700px;
-    height: 55px;
+    width: 70rem;
+    height: 5.5rem;
 }
 .top-navigation .logo {
-	margin-top: 12px;
-	height: 32px;
+	margin-top: 1.2rem;
 }
 .top-navigation .links {
 	float: right;
-	font-size: 13px;  	
-	margin-top: 20px;
+	font-size: 1.3rem;  	
+	margin-top: 2rem;
 }
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 2rem;
 	transition: color 0.15s ease;	
 }
 .top-navigation .links .active {
@@ -108,28 +106,26 @@ body {
 /* Intro Section */
 .intro {
 	background: #fff url(../images/first-background.jpg) no-repeat center bottom;
-	height: 41.5rem;
+	height: 59rem;
 	background-size: cover;
 	text-align: center;
-	padding: 12em 0;
+	padding: 22rem 0;
 	color: #fff;
 }
 .intro .content h1 {
-	font-size: 50px;
-	margin: 20px 0;
+	font-size: 3.8rem;
 }
 .intro .content h3 {
-	font-size: 24px;
-	margin: 24px 0;
+	font-size: 2rem;
+	margin: 2rem 0 2.8rem;
 }
 .big-button {
-	width: 9.688rem;
 	background-color: #f15a29;
 	border-color: #f15a29;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 1rem 1.5rem;
+	padding: 1.3rem 3rem;
 	color: white;
 	font-size: 1.2rem;
 }
@@ -139,7 +135,7 @@ body {
 }
 /* cases section */
 .cases {
-	padding: 8em 0 3em;
+	padding: 8rem 0 14rem;
 	background-color: #FFF;
 }
 .cases .content {
@@ -147,38 +143,40 @@ body {
   color: #1D1E21;
 }
 .cases .content h2 {
-	font-size: 34px;
+	font-size: 3.4rem;
 }
 .cases .content h3 {
-	font-size: 19px;
-	line-height: 1em;
+	font-size: 1.9rem;
 }
 .cases .devices {
   display: inline-block;
   vertical-align: top;
   width: 20%;
-  height: 12em;
+  height: 12rem;
   box-sizing: border-box;
-  margin-top: 34px;
+  margin-top: 3.4rem;
 }
 .cases .devices img {
-	margin-bottom: 22px;
+	margin-bottom: 2.2rem;
 }
 /* social section */
 .social {
 	text-align: center;
-	height: 12em;
+	height: 12rem;
 	background-color: #fff;
 }
 .social .content {
 	text-align: center;
 }
 .social .icons {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
+.social .icons i {
+	font-size: 1.2rem;
 }
 .social .icons li {
 	display: inline;
-	padding: 0 4px;
+	padding: 0 .5rem;
 }
 .social .icons:first-child, .social .icons:last-child  {
 	padding: 0;
@@ -190,20 +188,23 @@ body {
 	color: #4c66a4;
 }
 .social h3 {
-	font-size: 13px;
-	margin-bottom: 20px;
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
 }
 .social .icon-circle {
-	border: 1px solid #ebeced;
-	padding: 5px;
+	display: inline-block;
+	border: 1px solid #ebeced;	
 	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	line-height: 3rem;
 }
 .social hr {
 	width: 60%;
-	margin-bottom: 15px;
-	border-top: 1px solid #ebeced;
+	margin-bottom: 1.5rem;
+	border-top: .5px solid #ebeced;
 }
 .social .copy {
-	color: #B1B5BC;
-	font-size: 11px;
+	color: #b1b5bc;
+	font-size: 1rem;
 }
