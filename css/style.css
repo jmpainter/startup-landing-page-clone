@@ -52,15 +52,16 @@ table {
     font-family: OpenSans;
     src: url(../fonts/opensans-regular-webfont.woff);
 }
+html {
+	font-size: 62.5%;
+}
 body {
-    background-color: LightGray;
+    background-color: #fff;
     font-family: OpenSans, sans-serif;
 /*	font-family: 'Roboto', sans-serif; */
 	letter-spacing: 0.01em;	    
-	-webkit-font-smoothing: antialiased;    
-}
-div {
-    border: 1px solid Chocolate;
+	-webkit-font-smoothing: antialiased;  
+	font-size: 80%;  
 }
 .content {
 	padding: 0px 15px;
@@ -72,23 +73,24 @@ div {
     position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #dddddd;
 }
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
+    width: 700px;
+    height: 55px;
 }
 .top-navigation .logo {
 	margin-top: 12px;
-	height: 38px;
+	height: 32px;
 }
 .top-navigation .links {
 	float: right;
-	font-size: 16px;  	
-	margin-top: 24px;
+	font-size: 13px;  	
+	margin-top: 20px;
 }
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 20px;
 	transition: color 0.15s ease;	
 }
 .top-navigation .links .active {
@@ -136,21 +138,72 @@ div {
 	cursor: pointer;
 }
 /* cases section */
+.cases {
+	padding: 8em 0 3em;
+	background-color: #FFF;
+}
 .cases .content {
-  margin: 8em 0;
   text-align: center;
-  color: #1d1e21;
+  color: #1D1E21;
 }
 .cases .content h2 {
-	font-size: 42px;
+	font-size: 34px;
 }
 .cases .content h3 {
-	font-size: 22px;
+	font-size: 19px;
+	line-height: 1em;
 }
 .cases .devices {
   display: inline-block;
-  margin: 20px 20px;
+  vertical-align: top;
   width: 20%;
-  border: 1px solid black;
+  height: 12em;
   box-sizing: border-box;
+  margin-top: 34px;
+}
+.cases .devices img {
+	margin-bottom: 22px;
+}
+/* social section */
+.social {
+	text-align: center;
+	height: 12em;
+	background-color: #fff;
+}
+.social .content {
+	text-align: center;
+}
+.social .icons {
+	margin-bottom: 20px;
+}
+.social .icons li {
+	display: inline;
+	padding: 0 4px;
+}
+.social .icons:first-child, .social .icons:last-child  {
+	padding: 0;
+}
+.social .fa-twitter{
+	color: #55acee;
+}
+.social .fa-facebook, .social .fa-instagram {
+	color: #4c66a4;
+}
+.social h3 {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.social .icon-circle {
+	border: 1px solid #ebeced;
+	padding: 5px;
+	border-radius: 50%;
+}
+.social hr {
+	width: 60%;
+	margin-bottom: 15px;
+	border-top: 1px solid #ebeced;
+}
+.social .copy {
+	color: #B1B5BC;
+	font-size: 11px;
 }
