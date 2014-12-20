@@ -50,7 +50,15 @@ table {
 /* Start of Custom Styles */
 @font-face {
     font-family: OpenSans;
-    src: url(../fonts/opensans-regular-webfont.woff);
+	src: url(../fonts/opensans-regular-webfont.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(../fonts/opensans-light-webfont.woff);
+	font-weight: lighter;
+	font-style: normal;
 }
 html {
 	font-size: 62.5%;
@@ -144,6 +152,7 @@ body {
 }
 .cases .content h2 {
 	font-size: 3.4rem;
+	font-weight: lighter;
 }
 .cases .content h3 {
 	font-size: 1.9rem;
