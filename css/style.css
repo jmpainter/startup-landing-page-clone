@@ -69,8 +69,8 @@ body {
 	border-bottom: 1px solid #dddddd;
 }
 .top-navigation > .content {
-    width: 70rem;
-    height: 5.5rem;
+    width: 60%;
+    height: 7rem;
 }
 .top-navigation .logo {
 	margin-top: 1.2rem;
@@ -78,7 +78,7 @@ body {
 .top-navigation .links {
 	float: right;
 	font-size: 1.3rem;  	
-	margin-top: 2rem;
+	margin-top: 2.2rem;
 }
 .top-navigation .links li {
 	display: inline-block;
@@ -96,6 +96,7 @@ body {
 .top-navigation .links a {
 	text-decoration: none;
 	color: #838994;
+	font-size: 1.3em;
 }
 /* Intro Section */
 .intro {
