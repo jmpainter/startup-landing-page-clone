@@ -200,7 +200,8 @@ body {
 .social hr {
 	width: 60%;
 	margin-bottom: 1.5rem;
-	border-top: .5px solid #ebeced;
+	border: 0;
+	border-top: 1px solid #eaebec;
 }
 .social .copy {
 	color: #b1b5bc;
