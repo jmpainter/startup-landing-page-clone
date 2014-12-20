@@ -48,28 +48,14 @@ table {
 	border-spacing: 0;
 }
 /* Start of Custom Styles */
-@font-face {
-    font-family: OpenSans;
-	src: url(../fonts/opensans-regular-webfont.woff);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: OpenSans;
-	src: url(../fonts/opensans-light-webfont.woff);
-	font-weight: lighter;
-	font-style: normal;
-}
 html {
 	font-size: 62.5%;
 }
 body {
     background-color: #fff;
-    font-family: OpenSans, sans-serif;
-/*	font-family: 'Roboto', sans-serif; */
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.01em;	    
 	-webkit-font-smoothing: antialiased;  
-	font-size: 80%;  
 }
 .content {
     margin: 0 auto;  	
