@@ -134,7 +134,7 @@ body {
 .cases {
 	padding: 8rem 0 10rem;
 	background-color: #fff;
-	overflow: auto;
+	overflow: hidden;
 }
 .cases .content {
   text-align: center;
